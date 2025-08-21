@@ -11,27 +11,125 @@
     3 cols
 
     rowspan
-
+        
     colspan
 
      -->
 
      <table border="1" width="500" cellspacing="0" cellpadding="10">
         <tr>
-            <td rowspan="2">1</td>
+            <td rowspan="3">1</td>
             <td>2</td>
             <td>3</td>
         </tr>
         <tr>
             <!-- <td>1</td> -->
+            <td colspan="2">2</td>
+            <!-- <td>3</td> -->
+        </tr>
+        <tr>
+            <!-- <td>1</td> -->
             <td>2</td>
-            <td rowspan="2">3</td>
+            <td>3</td>
+        </tr>
+     </table>
+
+
+     <table border="1" width="500" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th rowspan="3">GFG</th>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>24</td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>25</td>
+            <!-- <td></td> -->
+        </tr>
+     </table>
+
+     <!--
+     example - 3 
+      -->
+     <table border="1" width="500" cellspacing="0" cellpadding="10">
+        <caption>table - 3</caption>
+        <tr>
+            <td colspan="3"></td>
+            <!-- <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+     </table>
+
+     <table border="3" width="500" cellspacing="6" cellpadding="10">
+        <caption> table - 4</caption>
+        <tr>
+            <td colspan="3">1</td>
+            <!-- <td>2</td>
+            <td>3</td> -->
+            <td rowspan="3">4</td>
+            <td colspan="2">5</td>
+            <!-- <td>6</td> -->
+            <td rowspan="2">7</td>
         </tr>
         <tr>
             <td>1</td>
             <td>2</td>
-            <!-- <td>3</td> -->
+            <td>3</td>
+            <!-- <td>4</td> -->
+            <td>5</td>
+            <td>6</td>
+            <!-- <td>7</td> -->
+        </tr>
+        <tr>
+            <td colspan="3">1</td>
+            <!-- <td>2</td>
+            <td>3</td> -->
+            <!-- <td>4</td> -->
+            <td colspan="2">5</td>
+            <!-- <td>6</td> -->
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="7">1</td>
+            <!-- <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td> -->
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
         </tr>
      </table>
+
+
+
 </body>
 </html>
