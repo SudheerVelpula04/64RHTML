@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    forms- completed
+    ----------------
+    pattern="regex"
+
+    pattern="[abc]"
+    [abc]- any one in side a square a | b | c
+     ( - ) start to end
+    [a-z]- lower case
+    [0-9]- numeric
+    [A-Z]- upper case
+    [a-zA-Z0-9] lowercase|uppercase|numeric
+    + - 1 are more prev char
+    {m}- max length
+        number validation
+        pin code validation
+        adhar validation
+        PAN card validation
+        license
+    {m,}- min length , 
+        feedback
+    {m,n}- min length, max length
+        password
+        ATM pin
+
+
+
+
+
+
+    mobile number validation
+    -------------------------
+
+    +919876543210
+
+
+    number validation
+    pin code validation
+    adhar validation
+    PAN card validation
+    bank account
+    license
+
+    
+    
+    
+
+    
+     -->
+
+     <form action="./submit.html">
+        <!--                            9|8|7|6 -->
+        <input type="text" pattern="\+91[6-9][0-9]{9}" required>
+        <!-- 5[0-9]{5} -->
+
+
+        <!-- <input type="text" pattern="Cq123Z" required> -->
+         <!-- <input type="text" required pattern="abc">
+         <br>
+         <input type="text" required pattern="123">
+         <br>
+         <input type="text" pattern="ABC" required>
+         <br> -->
+         <!-- <input type="text" pattern="[123]"> -->
+
+        <input type="submit">
+     </form>
+</body>
+</html>
